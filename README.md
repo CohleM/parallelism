@@ -1,9 +1,3 @@
----
-title: Parallelism
-author:
-  - CohleM
----
-
 I was learning how we can do distributed RL training, saw karpathy posting [this](https://x.com/karpathy/status/1952076108565991588) and thought why not make a complete blog about what I learned so here it is.
 
 The end goal of this blog is to explain clearly how to do distributed RL training, right now it contains explanations about fundamentals of distributed training, such as data parallelism, model parallelism, and tensor parallelism. Consider this as a part 1, where in the next blog I'll be explaining how we apply the techniques learned in the blog.
